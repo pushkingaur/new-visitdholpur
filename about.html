@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+     <link rel="icon" type="image/x-icon" href="eduford_img/dlogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="eduford_img/dlogo.png" alt="logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-xmark" onclick="showmanu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="course.html" target="_blank">FECILITIES</a></li>
+                    <li><a href="blog.html"target="_blank">BLOG</a></li>
+                    <li><a href="contact.html" target="_blank">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="hidemanu()"></i>
+            
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- ---------about us content------------ -->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-cal">
+                <h1>Explore Dholpur's Rich Heritage</h1>
+                <p>
+                    Welcome to VisitDholpur.com, your perfect companion for an unforgettable journey through Dholpur's historical heart. We specialize in providing comprehensive tour facilities that bring the region's most captivating sites to life. Imagine stepping back in time as you explore the serene Machkund, the formidable Shergarh Fort, and the impressive Nihal Tower. Our expert-guided tours ensure you don't just see these landmarks, you experience their stories and absorb their grandeur. Let us handle the details so you can focus on making memories in this historically rich corner of Rajasthan.</p>
+
+                <a href="https://www.instagram.com/dholpurbuzz?utm_source=ig_web_button_share_sheet&igsh=MTFiN3lncmZxd2Judg==" class="hero-btn black-btn">EXPLORE NOW →</a>
+                
+            </div>
+             <div class="about-cal">
+                <img src="eduford_img/aboutmach.jpg" alt="">
+             </div>
+        </div>
+     </section>
+
+   
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Disclaimer :
+    Please be aware that this website is currently a prototype. As such, it is a work in progress and may contain incomplete information, errors, or features that are not yet fully functional. The content and design are subject to change without notice. Your use of this prototype is at your own discretion, and we appreciate your understanding as we continue to develop and improve our services.</p>
+    
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p> Made by<i class="fa-regular fa-heart"></i> Pushkin Gaur <br>@Copyright P2025</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------java scrip for manu bar-------- -->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmanu(){
+            navlink.style.right = "-200px"
+        }
+         function hidemanu(){
+            navlink.style.right = "0"
+        }
+
+
+    </script>
+</body>
+</html>
